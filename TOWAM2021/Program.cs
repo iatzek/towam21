@@ -22,7 +22,7 @@ namespace TOWAM2021
             {
                 double x1, x2;
                 x1 = (-b - Math.Sqrt(delta)) / (2 * a);
-                x2 = (-b + Math.Sqrt(delta)) / 2 / a;
+                x2 = (-b + Math.Sqrt(delta)) / (2 * a);
 
                 Console.WriteLine("Pierwiastki to: {0} i {1}", x1, x2);
             } else if (delta == 0)
