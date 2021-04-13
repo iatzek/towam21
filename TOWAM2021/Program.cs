@@ -9,13 +9,13 @@ namespace TOWAM2021
             double a, b, c;
             double x1, x2;
 
-            
+            Console.WriteLine("ax^2+bx+c=0");
+            Console.WriteLine("wprowadź a");
             a = Double.Parse(Console.ReadLine());
+            Console.WriteLine("wprowadź b");
             b = Double.Parse(Console.ReadLine());
+            Console.WriteLine("wprowadź c");
             c = Double.Parse(Console.ReadLine());
-
-
-
 
             double delta = b * b - 4 * a * c;
 
