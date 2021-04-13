@@ -28,8 +28,8 @@ namespace TOWAM2021
                 Console.WriteLine("Pierwiastki to: {0} i {1}", x1, x2);
             } else if (delta == 0)
             {
-                double x1;
-                x1 = (-b) / 2 * a;
+                double x1;                
+                x1 = -b / (2 * a);
                 Console.WriteLine("Jeden podwójny pierwiastek to: {0}", x1);
             }
             else
