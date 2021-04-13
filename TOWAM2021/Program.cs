@@ -11,10 +11,17 @@ namespace TOWAM2021
 
             double delta = b * b - 4 * a * c;
 
-            x1 = (-b - Math.Sqrt(delta)) / 2 * a;
-            x2 = (-b + Math.Sqrt(delta)) / 2 * a;
+            if (delta >= 0)
+            {
 
-            Console.WriteLine("Pierwiastki to: {0} i {1}", x1, x2);
+                x1 = (-b - Math.Sqrt(delta)) / 2 * a;
+                x2 = (-b + Math.Sqrt(delta)) / 2 * a;
+
+                Console.WriteLine("Pierwiastki to: {0} i {1}", x1, x2);
+            } else
+            {
+                Console.WriteLine("brak pierwiastków");
+            }
 
         }
     }
